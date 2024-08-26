@@ -1,11 +1,12 @@
 import React from 'react'
+import NavBar from './components/NavBar'
 
 const Home = () => {
   return (
     <>
-    <h1>Listed</h1>
-    <p>For your daily quick notes that you might want to share...</p>
-      <a target="_blank" href="https://icons8.com/icon/67582/list">List</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      <NavBar />
+      <p>For your daily quick notes that you might want to share...</p>
+      {/* <a className='' href="https://icons8.com/icon/67582/list">List</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
     </>
     
 
