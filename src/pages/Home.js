@@ -4,9 +4,13 @@ import NavBar from '../components/NavBar'
 const Home = () => {
   return (
     <>
-      <NavBar />
-      <p>For your daily quick notes that you might want to share...</p>
-      {/* <a className='' href="https://icons8.com/icon/67582/list">List</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+      <div className='bg-gradient-to-b from-blue-200 to-blue-500 min-h-screen min-w-screen'>
+        <NavBar />
+        <div className='flex items-center justify-center m-9 animate-pulse'>
+          <p className='text-4xl'>For your daily quick notes that you might want to share...</p>
+        </div>
+        {/* <a className='' href="https://icons8.com/icon/67582/list">List</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+      </div>
     </>
     
 
